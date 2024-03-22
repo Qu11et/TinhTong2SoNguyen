@@ -19,7 +19,12 @@ namespace TinhTong2SoNguyen
 
             textBox3.Text = (soThuNhat + soThuHai).ToString();
 
-           
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

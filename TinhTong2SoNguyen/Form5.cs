@@ -27,13 +27,18 @@ namespace TinhTong2SoNguyen
             string phim = comboBox1.SelectedItem.ToString();
 
             List<CheckBox> checkBoxes = Controls.OfType<CheckBox>().ToList();
-            foreach (CheckBox checkBox in checkBoxes) 
+            foreach (CheckBox checkBox in checkBoxes)
             {
                 if (checkBox.Checked)
                 {
                     MessageBox.Show(checkBox.Name);
                 }
             }
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -25,13 +25,35 @@ namespace TinhTong2SoNguyen
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
-            form5.ShowDialog();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            lab1.Form7 form7 = new lab1.Form7();
+            form7.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            lab1.Form9 form9 = new lab1.Form9();
+            form9.ShowDialog();
         }
     }
 
