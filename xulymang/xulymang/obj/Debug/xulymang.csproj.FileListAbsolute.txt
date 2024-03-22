@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\xulymang\xulymang\bin\Debug\xulymang.exe.config
+C:\Users\Admin\source\repos\xulymang\xulymang\bin\Debug\xulymang.exe
+C:\Users\Admin\source\repos\xulymang\xulymang\bin\Debug\xulymang.pdb
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.Form1.resources
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.Properties.Resources.resources
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.exe
+C:\Users\Admin\source\repos\xulymang\xulymang\obj\Debug\xulymang.pdb
