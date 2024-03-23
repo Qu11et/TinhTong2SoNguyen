@@ -1,6 +1,6 @@
 ﻿namespace TinhTong2SoNguyen
 {
-    partial class Form8
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,14 @@
         {
             SuspendLayout();
             // 
-            // Form8
+            // Form2
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "Form8";
+            Name = "Form2";
             Text = "Form2";
+            Load += Form8_Load;
             ResumeLayout(false);
         }
 

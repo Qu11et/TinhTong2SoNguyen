@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TinhTong2SoNguyen
 {
-    public partial class Form8 : Form
+    public partial class Form2 : Form
     {
-        public Form8()
+        public Form2()
         {
             InitializeComponent();
+        }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
