@@ -35,11 +35,12 @@
             label2 = new Label();
             label3 = new Label();
             button1 = new Button();
+            label4 = new Label();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(146, 153);
+            textBox1.Location = new Point(221, 159);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(283, 31);
             textBox1.TabIndex = 0;
@@ -47,14 +48,14 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(146, 254);
+            textBox2.Location = new Point(221, 260);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(283, 31);
             textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(146, 360);
+            textBox3.Location = new Point(221, 366);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(283, 31);
             textBox3.TabIndex = 2;
@@ -62,45 +63,56 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(69, 159);
+            label1.Location = new Point(106, 159);
             label1.Name = "label1";
-            label1.Size = new Size(59, 25);
+            label1.Size = new Size(109, 25);
             label1.TabIndex = 3;
-            label1.Text = "label1";
+            label1.Text = "Số thứ nhất:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(69, 257);
+            label2.Location = new Point(106, 257);
             label2.Name = "label2";
-            label2.Size = new Size(59, 25);
+            label2.Size = new Size(93, 25);
             label2.TabIndex = 4;
-            label2.Text = "label2";
+            label2.Text = "Số thứ hai";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(69, 366);
+            label3.Location = new Point(106, 366);
             label3.Name = "label3";
-            label3.Size = new Size(59, 25);
+            label3.Size = new Size(96, 25);
             label3.TabIndex = 5;
-            label3.Text = "label3";
+            label3.Text = "Tổng 2 số:";
             // 
             // button1
             // 
-            button1.Location = new Point(481, 257);
+            button1.Location = new Point(605, 228);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(94, 94);
             button1.TabIndex = 6;
-            button1.Text = "button1";
+            button1.Text = "Tính";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(196, 38);
+            label4.Name = "label4";
+            label4.Size = new Size(423, 54);
+            label4.TabIndex = 7;
+            label4.Text = "Tính tổng 2 số nguyên";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -124,5 +136,6 @@
         private Label label2;
         private Label label3;
         private Button button1;
+        private Label label4;
     }
 }

@@ -35,31 +35,32 @@
             enterBut = new Button();
             monthLabel = new Label();
             monthTxt = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // dayLabel
             // 
             dayLabel.AutoSize = true;
-            dayLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dayLabel.Location = new Point(142, 139);
+            dayLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dayLabel.Location = new Point(103, 194);
             dayLabel.Name = "dayLabel";
-            dayLabel.Size = new Size(181, 31);
+            dayLabel.Size = new Size(179, 31);
             dayLabel.TabIndex = 0;
-            dayLabel.Text = "Nhap ngay sinh";
+            dayLabel.Text = "Nhập ngày sinh:";
             // 
             // outLabel
             // 
             outLabel.AutoSize = true;
-            outLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            outLabel.Location = new Point(142, 269);
+            outLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            outLabel.Location = new Point(103, 324);
             outLabel.Name = "outLabel";
-            outLabel.Size = new Size(310, 31);
+            outLabel.Size = new Size(300, 31);
             outLabel.TabIndex = 1;
-            outLabel.Text = "Cung hoang dao cua ban la:";
+            outLabel.Text = "Cung hoàng đạo của bạn là:";
             // 
             // dayTxt
             // 
-            dayTxt.Location = new Point(474, 141);
+            dayTxt.Location = new Point(435, 196);
             dayTxt.Name = "dayTxt";
             dayTxt.Size = new Size(200, 31);
             dayTxt.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // outTxt
             // 
-            outTxt.Location = new Point(474, 269);
+            outTxt.Location = new Point(435, 324);
             outTxt.Name = "outTxt";
             outTxt.Size = new Size(200, 31);
             outTxt.TabIndex = 3;
@@ -75,7 +76,7 @@
             // enterBut
             // 
             enterBut.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            enterBut.Location = new Point(694, 139);
+            enterBut.Location = new Point(655, 194);
             enterBut.Name = "enterBut";
             enterBut.Size = new Size(43, 97);
             enterBut.TabIndex = 4;
@@ -86,25 +87,36 @@
             // monthLabel
             // 
             monthLabel.AutoSize = true;
-            monthLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            monthLabel.Location = new Point(142, 205);
+            monthLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            monthLabel.Location = new Point(103, 260);
             monthLabel.Name = "monthLabel";
-            monthLabel.Size = new Size(198, 31);
+            monthLabel.Size = new Size(189, 31);
             monthLabel.TabIndex = 5;
-            monthLabel.Text = "Nhap thang sinh:";
+            monthLabel.Text = "Nhập tháng sinh:";
             // 
             // monthTxt
             // 
-            monthTxt.Location = new Point(474, 205);
+            monthTxt.Location = new Point(435, 260);
             monthTxt.Name = "monthTxt";
             monthTxt.Size = new Size(200, 31);
             monthTxt.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(199, 65);
+            label1.Name = "label1";
+            label1.Size = new Size(401, 46);
+            label1.TabIndex = 7;
+            label1.Text = "Xác định cung hoàng đạo";
             // 
             // Form7
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(monthTxt);
             Controls.Add(monthLabel);
             Controls.Add(enterBut);
@@ -128,5 +140,6 @@
         private Button enterBut;
         private Label monthLabel;
         private TextBox monthTxt;
+        private Label label1;
     }
 }

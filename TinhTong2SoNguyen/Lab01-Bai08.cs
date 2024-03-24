@@ -16,17 +16,22 @@ namespace lab1
         string[] array;
         ulong size = 0;
         string input = "";
-        int counter = 0;
+        int counter = 3;
+        
 
         public Form9()
         {
             InitializeComponent();
             array = new string[50];
+            array[1] = "Cơm sườn";
+            array[2] = "Hủ tiếu nam vang";
+            array[3] = "Phở bò";
+            outputTxt.Text = "Cơm sườn" + Environment.NewLine + "Hủ tiếu nam vang" + Environment.NewLine + "Phở bò" + Environment.NewLine;
             //List<string> array = new List<string>();
         }
 
         private void addBtn_Click(object sender, EventArgs e)
-        {
+        { 
             counter++;
             input = inputTxt.Text;
             array[counter] = input;
